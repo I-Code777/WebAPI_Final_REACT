@@ -23,7 +23,7 @@ function App() {
   const categories = ["Not Yet Started", "In Progress", "Finished"];
 
   // Handle login, this is for testing the front end before connecting the backend
-  const handleLogin = async (e) => {
+  /*const handleLogin = async (e) => {
     e.preventDefault();
     if (username === "test123" && password === "test123") {
       const fakeToken = "mock-jwt-token";
@@ -32,9 +32,9 @@ function App() {
     } else {
       alert("Invalid test credentials");
     }
-  };
+  };*/
 
-  /*const handleLogin = async (e) => {
+  const handleLogin = async (e) => {
     e.preventDefault();
 
     try {
@@ -57,7 +57,7 @@ function App() {
     } catch (err) {
       alert("Login failed");
     }
-  };*/
+  };
 
   // Handle logout
   const handleLogout = () => {
